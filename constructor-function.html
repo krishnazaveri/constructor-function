@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>constructor function</title>
+</head>
+<body>
+
+    <script>
+
+        class A 
+        {
+            constructor(x,y)
+            {
+                console.log(x+y)
+            }
+        }
+        const x = new A(10,20);
+
+
+        function Test(x,y)
+        {
+           this.num1 = x;
+           this.num2 = y;
+
+           console.log( this.num1 + this.num2);
+        }
+
+       const res =  new Test(10,10);
+    
+        
+
+
+    </script>
+    
+</body>
+</html>
